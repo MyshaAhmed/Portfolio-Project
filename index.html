@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Porfolio</title>
+    <title>Mysha's Porfolio</title>
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="root.css">
     <link rel="stylesheet" href="responsive.css">
@@ -29,6 +29,16 @@
         git branch -M main
         git remote add origin (repo link)
         git push -u origin main 
+
+        installing surge====> (local host)
+        npm i -g surge  =>  (on click it will be installed ) or npm install --global surge
+        surge 
+        give email and passward ( after pressing enter, pass will not show in ui , remember pass and give valid email)
+        project link (the project you want to host )
+        doman name: give a domain name (ex: mysha-portfolio-project.surgr.sh)
+        when the upload is 100% completed copy the link in a web browser to see the website in a local host (free)
+
+
         
         -->
 </head>
@@ -39,21 +49,14 @@
                 <h1>LOGO</h1>
             </div>
             <div class="nav-items">
-                <div class="nav-item">
-                    <h3>Home</h3>
-                </div>
-                <div class="nav-item">
-                    <h3>About Me</h3>
-                </div>
-                <div class="nav-item">
-                    <h3>Projects</h3>
-                </div>
-                <div class="nav-item">
-                    <h3>Testimonials</h3>
-                </div>
-                <div class="nav-item-cv">
-                    <h3>Download CV</h3>
-                </div>
+                <ul class="nav-list-items">
+                    <a href=""><h3>Home</h3></a>
+                    <a href=""><h3>About Me</h3></a>
+                    <a href=""><h3>Projects</h3></a>
+                    <a href=""><h3>Testimonials</h3></a>
+                    <a href="" class="nav-item-cv"><h3>Download CV</h3></a>
+                    
+                </ul>
             </div>
 
         </div>
@@ -61,12 +64,13 @@
             <div class="banner-img-desc">
                 <div class="banner-left-part">
                     <div class="banner-desc">
-                        <p>HI, I’m Zahid <br> A creative <span> <img src="./images/Star 3.png" alt=""></span> Designer <br> based in
+                        <p>HI, I’m Mysha Ahmed <br> A creative <span> <img src="./images/Star 3.png" alt=""></span> Designer <br> based in
                             dhaka
                         </p>
                     </div>
                     <div class="sub-desc">
-                        <h6>Lorem ipsum dolor sit amet consectetur. Tristique amet sed <br> massa nibh lectus netus in.</h6>
+                        <h6>My journey in the world of design and development has been <br> nothing short of exhilarating, filled with creativity,
+                        innovation, <br>and amazing experiences.</h6>
                     </div>
                     <div class="work-desc">
                         <ul class="work-desc-class">
@@ -76,15 +80,7 @@
                             <li><img src="./images/Star 3.png" alt=""></li>
                             <li><h3> WEBFLOW </h3></li>
                         </ul>
-                        <!-- <div class="desc1">
-                            <h3>DESIGN <span> <img src="./images/Star 3.png" alt=""></span></h3>
-                        </div>
-                        <div class="desc1">
-                            <h3>DEVELOPMENT <span> <img src="./images/Star 3.png" alt=""></span></h3>
-                        </div>
-                        <div class="desc1">
-                            <h3 id="WEBFLOW-id"> WEBFLOW </h3>
-                        </div> -->
+                        
                     </div>
                     <div class="tag-container">
                         <div class="mother-tag">
@@ -116,7 +112,7 @@
                     </div>
                 </div>
                 <div class="banner-img">
-                    <img id="Guy-id" src="./images/Guy.png" alt="">
+                    <img id="Guy-id" src="./images/mysha-pic1-removebg-preview.png" alt="">
                 </div>
             </div>
             
@@ -125,13 +121,7 @@
                 <div class="banner-desc-line-items">
 
                     <ul class="line-list-items">
-                        <!-- <li>JX Design <span id="gray-star"> <img src="./images/Star 1.png" alt=""></span></li>
-                        <li>App Design<span id="gray-star"> <img src="./images/Star 1.png" alt=""></span></li>
-                        <li>Dashboard<span id="gray-star"> <img src="./images/Star 1.png" alt=""></span></li>
-                        <li>Wireframe<span id="gray-star"> <img src="./images/Star 1.png" alt=""></span></li>
-                        <li>User Research<span id="gray-star"> <img src="./images/Star 1.png" alt=""></span></li>
-                        <li>UX Design<span id="gray-star"> <img src="./images/Star 1.png" alt=""></span></li>
-                        <li>App Design<span id="gray-star"> <img src="./images/Star 1.png" alt=""></span></li> -->
+        
                         <li>JX Design</li>
                         <li><img src="./images/Star 1.png" alt=""></li>
                         <li>App Design</li>
@@ -146,19 +136,7 @@
                         <li><img src="./images/Star 1.png" alt=""></li>
                         <li>App Design</li>
                     </ul>
-                    <!-- <h1>UX Design</h1>
-                </div>
-                <div class="banner-desc-line-items">
-                    <h1>text1</h1>
-                </div>
-                <div class="banner-desc-line-items">
-                    <h1>text1</h1>
-                </div>
-                <div class="banner-desc-line-items">
-                    <h1>text1</h1>
-                </div>
-                <div class="banner-desc-line-items">
-                    <h1>text1</h1> -->
+                    
                 </div>
                 
             </div>
@@ -166,7 +144,8 @@
             <div class="footer-container">
                 <div class="left-footer-part">
                     <h1 id="footer-about-me">ABOUT ME</h1>
-                    <h3 id="footer-rand-text">Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in.</h3>
+                    <h3 id="footer-rand-text">I'm a passionate designer and frontend developer with a knack for turning ideas into visually
+                    stunning and highly functional digital experiences.</h3>
                 </div>
                 <div class="right-footer-part">
                     <ul class="five-stars">
@@ -186,7 +165,7 @@
     </div>
     <main>
         <section class="Experince-container">
-            <!-- <img id="exp-background" src="./images/main section img/BG.png" alt=""> -->
+            
             <div class="exp-left-part">
                 <div class="left-text">
                     <h3>Experince</h3>
@@ -269,7 +248,7 @@
 
         <section class="Portfolio-container">
             <h1 id="awards-txt">MY PORTFOLIO</h1>
-            <h3 id="awards-sub-txt">Lorem ipsum dolor sit amet consectetur. Tristique amet sed <br>massa nibh lectus netus in.</h3>
+            <h3 id="awards-sub-txt">Ready to embark on a journey of creativity and innovation?<br> Let's connect and create something amazing together!</h3>
             <div class="portfolio-list">
                 <ul>
                     <li id="p-list-black">UI/UX</li>

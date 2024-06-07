@@ -22,7 +22,7 @@
             width: max-content;
         }
     .work-desc-class {
-        margin: 0px 80px;
+        margin: 0px 30px;
     }
 
     .tag-container{
@@ -42,7 +42,7 @@
         .banner-desc-line {
         
             padding: 0px 0px;
-            margin: -40px -205px;
+            margin: -40px -160px;
             background-color: black;
             align-items: center;
             rotate: -5deg;
@@ -51,11 +51,12 @@
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
-                    gap: 8px;
+                    gap: 9px;
                     list-style-type: none;
-                    margin: 0px;
+                    margin: 0px 170px;
                     padding: 15px 0px;
                     font-size: 10px;
+                    background-color: black;
                 }
                 .footer-container {
     

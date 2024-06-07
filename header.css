@@ -24,20 +24,25 @@
 color: var(--orange-color);
 }
 
-.nav-items {
+.nav-items ul{
     margin-top: 10px;
     display: flex;
     gap: 20px;
     font-family: "Rubik", sans-serif;
         font-size: 21px;
-        
+        list-style-type: none;
         font-style: normal;
         
         
 }
 
+.nav-list-items a{
+text-decoration: none;
+}
+
 .nav-items h3{
 font-weight: 400;
+font-size: 25px
 }
 
 .nav-item-cv{
@@ -64,7 +69,7 @@ font-weight: 400;
 
 .banner-img-desc{
     display: flex;
-    justify-content: space-between;
+    justify-content: stretch;
 }
 
 .banner-desc{
@@ -97,7 +102,13 @@ font-weight: 400;
 .work-desc-class{
     display: flex;
     align-items: center;
+    gap: 20px;
     list-style-type: none;
+}
+
+.work-desc-class h3{
+    font-size: 24px;
+    font-weight: 300;
 }
 
 .desc1{
@@ -144,13 +155,6 @@ font-weight: 400;
     
 }
 
-/* .tag {
-    /* background-color: var(--orange-color);
-    width: fit-content;
-    padding: 17px 30px;
-    margin: 30px 0px;
-    border-radius: 60px; 
-} */
 
 .tag h3 {
     color: var(--primary-font-color);
@@ -161,7 +165,7 @@ font-weight: 400;
     height: 30px;
     width: 30px;
     margin-top: -6px;
-    /* margin-top: 50px; */
+   
 }
 
 #hire-me-id{
@@ -172,14 +176,13 @@ font-weight: 400;
 
 .banner-img{
     
-    /* padding-right: 40px; */
     display: flex;
     align-items: center;
     justify-content: start;
 
 }
 #Guy-id{
-    height: 400px;
+    height: 500px;
     width: 400px;   
 }
 
